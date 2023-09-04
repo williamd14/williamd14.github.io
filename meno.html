@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Meno Pain Tracker</title>
+    <link rel="icon" href="img/portfolio/favicon.png" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- main css -->
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+
+    <!-- modernizr -->
+    <script src="js/modernizr.js"></script>
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="pre-container">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end Preloader -->
+
+    <!-- Nav code from here: https://www.taniarascia.com/responsive-dropdown-navigation-bar-->
+    <header class="navigation">
+        <div class="nav-container">
+            <div class="brand">
+                <a href="index.html"></a>
+            </div>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#work">Work</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- end nav -->
+    <!-- top-bar -->
+    <div class="landing">
+        <div class="top-bar-meno">
+            <h1>Meno Pain Tracker.</h1>
+            <p>Designing a pain tracking application to help patients and doctors.</p>
+            <img src="img/portfolio/meno-full-workpage.png" alt="Updated visual design" class="img-responsive" />
+        </div>
+    </div>
+
+    <!-- end top-bar -->
+    <a id="top-button"></a>
+    <!-- main-container -->
+    <div class="container main-container-meno">
+        <div class="col-md-12">
+            <div id="main-content">
+            </div>
+
+            <div class="col-md-12">
+                <h3 class="text-uppercase">Pain tracking app for pain patients.</h3>
+                <h4 class="subhead">Improving existing pain tracking methods.</h4>
+                
+
+            </div>
+            
+            
+
+            <div class="col-md-9">
+                <h3>Overview</h3>
+                <p>In a fourth year health tech class, I teamed up with two other design students and one health science student to design a pain tracking application to help pain patients in a span of 4 weeks. We learned in this class that there is a form that pain patients fill out called the <a href="https://www.researchgate.net/profile/Alessandra_Splendiani/publication/259322301/figure/fig1/AS:601649508790280@1520455829423/McGill-pain-questionnaire.png" target="_blank">McGill pain questionnaire.</a> We tried filling out the form ourselves and quickly realized it was time-consuming, confusing, and overall a bad experience to fill out this form. We decided to improve this experience for pain patients by designing a digital version of this form. I was in charge of creating the working prototype in Invision and designing the pain entry section of the app.</p>
+                
+                <p>The final prototype can be found <a href="https://invis.io/HWP5CSX7JSC#/336505240_Onboarding1"target="_blank">here.</a></p>
+
+                
+                <h3>Process</h3>
+                <p>One of the most important things we wanted to do before starting was interviewing pain patients. We asked pain patients about their symptoms and what would usually cause a trigger in pain if they knew. We also asked questions about what kind of features they would want in a pain app to better understand their needs. The key insights we took away from our interviews were:</p>
+                
+                <ol>
+                    <li>Needs to be open-ended.</li>
+                    <li>Patients want a say in their treatment plans.</li>
+                    <li>To know what might be triggering the pain.</li>
+                    <li>It's difficult to describe pain.</li>
+                </ol>
+                
+                <h3>First Iteration</h3>
+                <p>Taking these insights, I started working on the pain entry section of our app. I knew I needed to make it easier to describe their pain. When the form asks the user where their pain is, I considered adding a colour option in addition to allowing users to highlight where their pain is. Users would be able to use any colour they want if it helps describe their pain shown in Figure 1 below. We ultimately decided against this because it was unnecessary considering we already had the descriptors later in the form. </p>
+                
+                <div class="process-images">
+                    <figure>
+                        <img src="img/portfolio/first-iteration1.png" alt="First iteration, pain intesity.">
+                        <figcaption class="fig-padding">Figure 1: First iteration, pain intensity.</figcaption>
+                    </figure>
+                </div>
+                
+                
+                <p>Another feature we considered was a medication section. This would be a section where patients can add in any medication they are taking to alleviate their pain. This can be seen below in Figure 2. This was something that did not make it to the final iteration either because when we interviewed more pain patients, many of them said they did not want to take painkillers unless it was absolutely necessary. They would prefer remedies such as exercise and healthy eating. If we kept the medication section in our app, it would seem like taking medication is required, even though it is not. </p>
+                
+                <div class="process-images">
+                    <figure>
+                        <img src="img/portfolio/first-iteration2.png" alt="First iteration, medication entry.">
+                        <figcaption class="fig-padding">Figure 2: First iteration, medication entry.</figcaption>
+                    </figure>
+                </div>
+                
+                
+
+                <h3>Problem: Descriptors</h3>
+                <p>A problem I ran into while designing the pain entry form was with the descriptors. The descriptors are words from the McGill pain questionnaire. These words include: stabbing, shooting, hot-burning, and sickening to name a few. The issue with these words, however, is that some patients might not understand what each word means, especially if English is not their first language. The solution I came up with was to add icons to help convey what each word means. Icons are a universal language and can help clear up any confusion surrounding the descriptors. The wireframe and final version of this can be seen below in Figure 3. </p>
+            
+                
+                <div class="process-images">
+                    <figure>
+                        <img src="img/portfolio/descriptors-final2.png" alt="Descriptors wireframe.">
+                        <figcaption class="fig-padding">Figure 3: Descriptors with icons.</figcaption>
+                    </figure>
+                </div>
+                
+                
+                <h3>Final Prototype</h3>
+                <p>As we continued to iterate on our design, we wanted to add a digital helper to our app as well. This helper would act as a "coach" and give feedback to the user depending on their inputs. For example, if the user said they were exhausted or tired, the helper would suggest taking a nap and provide an option to set an alarm.</p>
+                
+                <p>The final prototype can be found <a href="https://invis.io/HWP5CSX7JSC#/336505240_Onboarding1"target="_blank">here.</a></p>
+
+                <h3>Outcomes</h3>
+                <p>One of the things I took from this project was learning how to work with people from different programs/faculties. Our team had a health science student and was very helpful with the health science portion of our application. We had different skill sets and were still able to work together very well. We delegated tasks to each person based on their skill sets which made this project excel, resulting in an A letter grade.</p>
+
+            </div>
+
+            <div class="col-md-3">
+                <h3>Role & Duration</h3>
+                <h4>4 weeks</h4>
+                <p>Prototypes, Wireframes, Mockups, Interviews, User Tests</p>
+            </div>
+        </div>
+    </div>
+    <!-- end main-container -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid">
+            <h1>Let's talk.</h1>
+            <h2>williamdang14@gmail.com</h2>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- jQuery -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <!--  plugins -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/top.js"></script>
+
+    <!--  custom script -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
